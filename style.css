@@ -1,0 +1,86 @@
+body {
+  background: url(https://i.pinimg.com/originals/0f/26/af/0f26af4294b7db3c955db824910d9d43.gif)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#city {
+  border: 2px solid #314a5a;
+  width: 300px;
+  height: 45px;
+  border-radius: 20px 0px 0px 20px;
+  color: #3d7eaa;
+  transition: 0.3s ease-in-out;
+}
+
+#city:focus {
+  background: none;
+  border: 2px dashed #8e54e9;
+  color: white;
+}
+
+#send {
+  width: 70px;
+  border: 2px solid #3d7eaa;
+  border-radius: 0px 10px 10px 0px;
+  height: 51px;
+  background: none;
+  color: white;
+  transition: 0.1s ease-in-out;
+}
+
+#send:hover {
+  background: #3d7eaa;
+  color: white;
+  border: none;
+}
+
+#send:active {
+  background: #314a5a;
+
+  padding: 10px;
+  font-size: 3px;
+}
+
+.texting {
+  display: flex;
+  justify-content: center;
+}
+
+#info {
+  background: #8e54e9;
+  width: 60%;
+  height: 700px;
+  border-radius: 25%;
+  margin-left: 20%;
+  margin-top: 10%;
+  box-shadow: 0px 0px 40px white;
+  color: white;
+  text-align: center;
+}
+
+.start h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 0px 0px 20px black;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #8e54e9;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #8e54e9;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #8e54e9;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #8e54e9;
+}
